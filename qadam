@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qazaq English Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0a1f44, #123c69);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+    .logo {
+      width: 150px;
+      margin: 20px auto;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p.subtitle {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #f1f1f1;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: block;
+      background: #ffd700;
+      color: #000;
+      text-decoration: none;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ffcc00;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Логотип/Орнамент -->
+    <img src="Picture12.png" alt="Орнамент" class="logo">
+
+    <h1>Qazaq English Online</h1>
+    <p class="subtitle">Онлайн-курсы английского языка<br>Бастапқы деңгейден IELTS, TOEFL, SAT-қа дейін</p>
+
+    <div class="card">
+      <p>📍 Объясняем на русском и казахском<br>
+      📍 Онлайн-формат — учитесь из любого города<br>
+      📍 В группе до 3 человек<br>
+      📍 Стоимость: 5000 тг за занятие</p>
+    </div>
+
+    <!-- Кнопки -->
+    <a href="https://wa.me/77073028335" class="btn">Написать в WhatsApp</a>
+    <a href="https://instagram.com/" class="btn">Instagram</a>
+    <a href="mailto:youremail@gmail.com" class="btn">Email</a>
+
+    <footer>© 2025 Qazaq English Online</footer>
+  </div>
+</body>
+</html>
